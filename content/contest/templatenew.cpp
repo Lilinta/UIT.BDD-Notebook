@@ -2,11 +2,11 @@
 using namespace std;
 //#pragma GCC optimize("Ofast,no-stack-protector,unroll-loops,fast-math")
 //#pragma GCC target("sse,sse2,sse3,ssse3,sse4.1,sse4.2,avx,avx2,popcnt,tune=native")
-/* compile flag:
+/*
+compile flag:
 g++ -std=c++14 -O2 -Wall -Wextra -pedantic -Wfloat-equal -Wshadow  -Wcast-align
 -Wformat=2 -Wconversion -Wlogical-op -Wshift-overflow=2 -Wduplicated-cond -Wcast-qual
 -D_GLIBCXX_DEBUG -D_GLIBCXX_DEBUG_PEDANTIC -ggdb3 test.cpp -o test
-
 Open stack: Linker settings > other linker option: -Wl,--stack=67108864
 */
 typedef long long ll;
